@@ -18,3 +18,69 @@ button {
     background: 0;
     cursor: pointer;
 }
+
+/* General */
+body {
+    font-weight: 400;
+    font-family: 'Catamaran', sans-serif;
+}
+
+/* Header */
+.header .container {
+    width: 1535px;
+    margin: 0 auto;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container .left {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.header .container .left .menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header .container .left .menu li {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Catamaran', sans-serif;
+    color: #163561;
+    padding: 8px 14px;
+}
+
+.header .container .left .menu li.active {
+    color: #ffffff;
+    background: #a3c1ef;
+    padding: 67px 14px 8px;
+    border-radius: 5px;
+}
+
+.header .container .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+}
+
+.header .container .right .btn {
+    color: #ffffff;
+    background: #99baed;
+    padding: 23px 33px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 30px;
+    letter-spacing: 3%;
+    box-shadow: 10px 10px 15px #99baed80;
+}
+
